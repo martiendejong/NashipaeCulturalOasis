@@ -1,6 +1,0 @@
-<div class="wrapper">
-    <div *ngFor="let item of items; let index = index" 
-        class="fade-item" [class.visible]="index == i">
-        <ng-container *ngTemplateOutlet="template; context: { $implicit: item }"></ng-container>
-    </div>
-</div>

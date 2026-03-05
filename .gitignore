@@ -1,8 +1,10 @@
-node_modules
-.angular
-dist
-embeddings.json
-embeddings.json.b2
-embeddings.json.b3
-php-website/config.php
-config.php
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

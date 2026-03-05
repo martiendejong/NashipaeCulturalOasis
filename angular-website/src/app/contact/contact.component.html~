@@ -1,4 +1,0 @@
-<div class="minviewheight"*ngIf="content">
-    <h1 *ngFor="let title of content.title">{{title}}</h1>
-    <p *ngFor="let item of content.text">{{item}}</p>
-</div>

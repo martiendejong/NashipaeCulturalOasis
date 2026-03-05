@@ -1,9 +1,0 @@
-# Enable Rewrite Engine
-RewriteEngine On
-
-# Check if the requested file or directory exists
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# If not, redirect to /index.html
-RewriteRule ^ index.html [L]
